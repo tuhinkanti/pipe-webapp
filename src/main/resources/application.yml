@@ -1,0 +1,6 @@
+server:
+  port: 8088
+logging:
+  config: src/main/resources/logback-spring.xml
+  level:
+    org.springframework.web: INFO
